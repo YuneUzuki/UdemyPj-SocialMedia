@@ -13,7 +13,6 @@ namespace API.Controllers
         public UsersController(DataContext context)
         {
             this._context = context;
-
         }
 
         [HttpGet]
